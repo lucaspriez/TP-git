@@ -1,4 +1,8 @@
 ### Application.bash - 201x - votre Priez ###
-echo "Copyright Company - 201x"
- echo "Build : 10:00"
-echo "version 1.1"
+echo build copyright 
+
+version = "2"
+build_hour = "11H00"
+
+echo "Build ${build_hour}"
+echo "version ${version}"
